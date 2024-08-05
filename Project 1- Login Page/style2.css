@@ -1,0 +1,143 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(45deg, #ffd49c, #ffd49c, #ffd49c, #ffd49c, white,#ffd49c, #ffd49c, #ffd49c);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0; 
+}  
+  
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3000px;
+}
+
+.login-box {
+    width: 500px;
+    margin: 20px 200px;
+    padding: 20px;
+    background-color: white;
+    border: 2px solid #683F69;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.5);
+}
+  
+h1 {
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    color: #d84b76;
+}
+
+.input-box{
+    width: 430px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    margin-left: 25px;
+    font-size: 17px;
+}
+
+.input-box label{
+    display: inline-block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.input-box input{
+    width: 100%;
+    height: 20px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-size: 1em;
+    color: #000000;
+}
+
+::placeholder{
+    color: rgb(199, 199, 199);
+}
+
+.terms{
+    margin-right: 20px;
+    margin-left: 25px;
+    padding: 5px;
+}
+
+.button1{
+    padding: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border: transparent;
+    border-radius: 5px;
+    background-color: #d84b76;
+    width: 90%;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: #9fc4fd;
+    margin-bottom: 10px;
+  }
+
+.forgot, .register-link{
+    text-align: center;
+}
+
+p{
+    font-weight: bold;
+}
+
+.line-with-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.line1{
+    height: 1px;
+    width: 40%;
+    background-color: black;
+}
+
+.text{
+    margin: 0 10px;
+    font-weight: bold;
+    color: black;
+}
+
+.line2{
+    text-align: right;
+    height: 1px;
+    width: 40%;
+    background-color: black;
+}
+
+.button2{
+    height: 40px;
+    margin-left: 25px;
+    border: 2px solid #969191;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    width: 90%;
+    color: #969191;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+    padding:10px 20px;
+    align-items: center;
+}
+
+.button2 img{
+    width: 30px;
+    margin-right: 100px;
+    margin-left: -5px;
+}
